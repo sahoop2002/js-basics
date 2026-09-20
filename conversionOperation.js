@@ -68,3 +68,50 @@ let someNumber = 33
 let stringNumber = String (someNumber)
 console. log(stringNumber);
 console. log (typeof stringNumber);
+
+
+//*******************************************  OPERATIONS  ***************************************
+
+let value = 3 
+let NegValue = -value
+console.log (NegValue)
+
+let value1 = 3 
+value1 = -value1
+console.log (value1)
+
+// console. log(2+2);
+// console. log (2-2);
+// console. log (2*2);
+// console. log (2**3);
+// console. log (2/3);
+// console. 10g (2%3);|
+
+let str1 = "hello"
+let str2 = " pratip"
+let str3 = str1 + str2
+console.log (str3);
+
+
+//this is for understand only, not the right way to write the code
+//As soon as a string enters a chain of + operations, everything that follows gets converted into a string unless grouped with parentheses (e.g., "1" + (2 + 2) would yield "14")
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+console.log("1" + 2 + 2); // 122
+console.log("1" + (2 + 2)); //14
+console.log (1 + 2 + "2"); // 32 //for this one 1st conversion then string comes like 1+2 = 3 then string 2 = 32
+console. log( (3 + 4) * 5 % 3);
+
+console. log(+true);
+console. log (+"");
+
+let num1, num2, num3;
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100 
+gameCounter ++
+console. log (gameCounter);
+
+let gameCounter1 = 100 
+++gameCounter1 
+console. log (gameCounter1);
