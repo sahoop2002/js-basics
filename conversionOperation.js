@@ -80,6 +80,10 @@ let value1 = 3
 value1 = -value1
 console.log (value1)
 
+const value2 = 3
+value2 = -value2 
+console.log("value2" + value2)
+
 // console. log(2+2);
 // console. log (2-2);
 // console. log (2*2);
